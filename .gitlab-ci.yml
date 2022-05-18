@@ -1,0 +1,4 @@
+# https://docs.gitlab.com/ee/topics/autodevops/customize.html
+
+include:
+  - template: Jobs/Build.gitlab-ci.yml

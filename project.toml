@@ -1,0 +1,14 @@
+[project]
+id="{{cookiecutter.project_name}}"
+name="{{cookiecutter.project_name}}"
+version="1.0.0"
+
+
+[build]
+exclude = [
+    "README.md",
+]
+
+[[build.env]]
+name="foo"
+value="bar"
